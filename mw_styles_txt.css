@@ -1,4 +1,6 @@
-﻿/*
+﻿@charset "utf-8";
+
+/*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 2
@@ -10,29 +12,29 @@
    Filename: mw_styles.css
 
 */
-
-
 /* Structural Styles */
+html {
+    background-color: rgb(173, 189, 227);
+}
 
+body {
+    background-color: rgb(173, 189, 227);
+    font-family: ‘Century Gothic’, sans-serif;
+}
 
+body footer {
+    background-color: rgb(208, 184, 109);
+    padding: bottom 5px top 5px
+}
+
+address {
+    font: normal;
+    font: size 0.9em;
+    padding: bottom 10px top 10px;
+}
 
 /* Heading Styles */
-
-
-
 /* Navigation Styles */
-
-
-
-
 /* Article Styles */
-
-
-
-
 /* Aside Styles */
-
-
-
 /* Blockquote Styles */
-
